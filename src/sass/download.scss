@@ -1,0 +1,22 @@
+.download {
+  padding: 114px 0;
+}
+.title {
+  @include h3;
+  margin-bottom: 29px;
+}
+.download-text {
+  @include h6;
+  margin-bottom: 48px;
+  text-align: center;
+}
+.download-link {
+  @include link;
+  
+
+		// .download-link_a
+
+		&_a {
+      @include link_a;
+		}
+}

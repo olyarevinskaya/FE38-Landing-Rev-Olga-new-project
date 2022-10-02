@@ -1,0 +1,80 @@
+@mixin h1 {
+ font-family: 'Raleway';
+ font-style: normal;
+ font-weight: 900;
+ font-size: $_64px;
+ line-height: 75px;  
+}
+@mixin h2 {
+ font-family: 'Raleway';
+ font-style: normal;
+ font-weight: 700;
+ font-size: $_36px;
+ line-height: 42px;
+}
+@mixin h3 {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: $_30px;
+  line-height: 35px;
+  text-transform: capitalize;
+  text-align: center;
+
+}
+@mixin h4 {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 900;
+  font-size: $_24px;
+  line-height: 28px;
+  text-align: center;
+}
+@mixin h5 {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: $_18px;
+  line-height: 21px;
+}
+@mixin h6 {
+ font-family: 'Raleway';
+ font-style: normal;
+ font-weight: 700;
+ font-size: $_13px;
+ line-height: 15px;
+}
+@mixin text {
+ font-family: 'Cardo';
+ font-style: italic;
+ font-weight: 400;
+ font-size: 36px;
+ line-height: 49px;
+ color: $_white;
+ text-transform: capitalize;
+}
+//link
+@mixin link {
+  width: 369px;
+  height: 77px;
+  margin: auto;
+  transition: 0.2s;
+  z-index: 1;
+  background-color: $_coral;
+}
+@mixin link_a {
+  display: block;
+  @include h4;
+  text-transform: uppercase;
+  text-align: center;
+  color: $_white;
+  line-height: 77px;
+}
+//icons
+@mixin icon {
+  display: flex;
+  font-size: 2.4375rem;
+  color: $_grey;
+}
+
+

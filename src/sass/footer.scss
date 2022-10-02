@@ -1,0 +1,15 @@
+.footer {
+  padding: 34px 0;
+  background-color: $_dark_grey-blue;
+}
+.footer-text {
+  width: 370px;
+  @include h5;
+  margin: auto;
+  text-align: center;;
+  color: $_green;
+  text-transform: capitalize;
+}
+.text-by {
+  color: $_white;
+}

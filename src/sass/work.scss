@@ -1,0 +1,48 @@
+.wrap {
+  display: flex;
+}
+.card-work {
+  border: 1px solid $_white;
+  width: 25%;
+  height: 340px;
+  // overflow: hidden;
+  position: relative;
+  transition: 0.2s;
+}
+.card-work:hover {
+  .work-text {display: block;}
+}
+.card-work_img {
+  width: 100%;
+  height: 340px;
+  overflow: hidden;
+  position: relative;
+}
+.card-work_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+ }
+.work-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: $_white;
+  background-color: rgba(255, 67, 67, 0.8);
+  width: 100%;
+  height: 100%;
+  display: none;
+  padding: 40% 10%;
+}
+.work-text-title {
+  @include h4;
+  margin-bottom: 25px;
+}
+.work-text-description {
+  @include h5;
+  text-align: center;
+}
+
+

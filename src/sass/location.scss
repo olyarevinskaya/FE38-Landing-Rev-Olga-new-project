@@ -1,0 +1,29 @@
+.location {
+  padding: 71px 0;
+  background-color: $_grey_blue;
+  color: $_white;
+}
+.card {
+  width: 370px;
+  margin: 0 15px;
+}
+.location-title {
+  @include h5;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 29px;
+}
+.location-text {
+  @include h5;
+  text-align: center;
+}
+.location-icons {
+  @include icon;
+  justify-content: center;
+  margin: 0 15px;
+}
+.location-icons-items {
+  margin: 0 15px;
+}
+

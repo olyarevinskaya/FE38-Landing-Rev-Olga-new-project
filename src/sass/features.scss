@@ -1,0 +1,22 @@
+.features {
+  padding: 116px 0;
+}
+.card {
+  width: 370px;
+  margin: 0 15px;
+  .card-img {
+    text-align: center;
+    margin-bottom: 29px;
+  }
+  .card-title {
+    @include h4;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 42px;
+  }
+  .card-text p {
+    @include h5;
+    text-align: center;
+    color: $_dark_grey;
+  }
+}
