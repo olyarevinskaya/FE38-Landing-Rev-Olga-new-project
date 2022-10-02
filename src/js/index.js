@@ -1,2 +1,7 @@
 console.log("Hello");
-new Swiper('.swiper-section');
+new Swiper('.image-slider', {
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+});
