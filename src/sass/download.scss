@@ -20,3 +20,7 @@
       @include link_a;
 		}
 }
+.download-link:hover {
+  @include link_a;
+  box-shadow: 4px 4px 30px $_coral;
+}

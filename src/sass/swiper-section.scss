@@ -1,4 +1,4 @@
-.image-slider {
+.swiper-section {
   padding: 30px 0 10px 0;
 }
 .swiper-wrapper {
@@ -44,3 +44,10 @@
       margin: auto;
 		}
   }
+.swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 0.875rem;
+  background-color: $_grey;
+}

@@ -1,8 +1,24 @@
 .features {
   padding: 116px 0;
+  @media (max-width: 1169px) {
+    padding: 50px 0;
+  } 
+  @media (max-width: 780px) {
+    padding: 20px 0;
+  } 
+}
+.wrap {
+  @media (max-width: 1169px) {
+    display: flex;
+    justify-content: space-evenly;
+  } 
+  @media (max-width: 780px) {
+    display: flex;
+    justify-content: center;
+  } 
 }
 .card {
-  width: 370px;
+  width: 360px;
   margin: 0 15px;
   .card-img {
     text-align: center;
@@ -19,4 +35,44 @@
     text-align: center;
     color: $_dark_grey;
   }
+}
+.card:nth-child(2) {
+  @media (max-width: 780px) {
+    margin-top: 35px;
+  } 
+}
+.card:nth-child(3) {
+  @media (max-width: 1169px) {
+    margin-top: 50px;
+  } 
+  @media (max-width: 780px) {
+    margin-top: 35px;
+  } 
+}
+.card:nth-child(4) {
+  margin-top: 100px;
+  @media (max-width: 1169px) {
+    margin-top: 50px;
+  } 
+  @media (max-width: 780px) {
+    margin-top: 35px;
+  } 
+}
+.card:nth-child(5) {
+  margin-top: 100px;
+  @media (max-width: 1169px) {
+    margin-top: 50px;
+    @media (max-width: 780px) {
+      margin-top: 35px;
+    } 
+  } 
+}
+.card:nth-child(6) {
+  margin-top: 100px;
+  @media (max-width: 1169px) {
+    margin-top: 50px;
+  } 
+  @media (max-width: 780px) {
+    margin-top: 35px;
+  } 
 }
